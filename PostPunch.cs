@@ -12,8 +12,7 @@ public class PostPunch : MonoBehaviour
         return postNumList;
     }
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start(){
         postNumList = new List<int>();
     }
 
